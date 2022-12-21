@@ -166,7 +166,7 @@ footer:hover{
 
 .mod-input{
 	width: 30vw;
-	height: 6vh;
+	height: 50px;
 	outline: none;
 	background-color: var(--white);
 	color: var(--logop-blue);
@@ -192,7 +192,7 @@ footer:hover{
 }
 
 .continue-part{
-	height: 6.6vh;
+	height: 54px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

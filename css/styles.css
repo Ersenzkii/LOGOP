@@ -139,3 +139,7 @@ footer{
 	align-items: center;
 	filter: drop-shadow(0 10px 10px black);
 }
+
+footer:hover{
+	cursor: default;
+}

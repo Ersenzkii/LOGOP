@@ -1,2 +1,1 @@
-[comment] <> (README.md)
-
+<!--README.md-->

@@ -12,6 +12,7 @@
 
 	--white: #FFF;
 	--logop-blue: #1a6eb5;
+	--light-blue: #0077B5;
 }
 
 body{
@@ -142,4 +143,61 @@ footer{
 
 footer:hover{
 	cursor: default;
+}
+
+.mod{
+	min-height: 70vh;
+	width: 100vw;
+	background-color: var(--white);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.mod-title{
+	margin-top: 0;
+}
+
+.mod-sub{
+	font-family: "Inter";
+}
+
+.mod-input{
+	width: 30vw;
+	height: 6vh;
+	outline: none;
+	background-color: var(--white);
+	color: var(--logop-blue);
+	outline: 4px solid var(--logop-blue);
+	outline-offset: -4px;
+	padding: 0 10px;
+	font-size: 1em;
+	font-weight: 800;
+	font-family: "Unbounded", sans-serif;
+	border-radius: 10px 0 0 10px;
+}
+
+.mod-input::placeholder{
+	color: var(--light-blue);
+}
+
+.input-container{
+	display: flex;
+	flex-direction: row;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.continue-part{
+	height: 6.6vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.5vw;
+	background-color: var(--logop-blue);
+	color: var(--white);
+	border-radius: 0 10px 10px 0;
 }

@@ -8,3 +8,8 @@ project started : December 20, 2022
 
 - header added ;
 - footer added ;
+
+## V0.2 :
+
+- first module added ;
+- entreprise input added ;

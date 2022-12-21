@@ -4,12 +4,17 @@
 
 project started : December 20, 2022
 
-## V0.1 :
+## v0.1 :
 
 - header added ;
 - footer added ;
 
-## V0.2 :
+## v0.2 :
 
 - first module added ;
 - entreprise input added ;
+
+## v0.3.0 :
+
+- all page in menu created
+- link between pages added

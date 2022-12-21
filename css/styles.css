@@ -1,1 +1,141 @@
 /*styles.css*/
+
+/*imported fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/**/
+
+:root{
+	--debug-color: #673AB7;
+
+	--white: #FFF;
+	--logop-blue: #1a6eb5;
+}
+
+body{
+	background-color: var(--white);
+	padding: 0;
+	height: 100vh;
+	max-width: 100vw;
+	margin: 0;
+	font-family: 'Unbounded', sans-serif;
+}
+
+header{
+	background-color: var(--white);
+	height: 10vh;
+	max-width: 100vw;
+	display: flex;
+	flex-direction: row;
+	padding: 0 1vw;
+	align-items: center;
+	filter: drop-shadow(0 -10px 10px black);
+}
+
+.logo{
+	width: 4vw;
+}
+
+.left-part{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+	flex-basis: 20%;
+}
+
+.left-part:hover{
+	cursor: pointer;
+}
+
+.right-part{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-basis: 20%;
+	justify-content: right;
+}
+
+.middle-part{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-basis: 60%;
+	flex-direction: row;
+}
+
+.logo-title{
+	margin: 0 10px;
+}
+
+.inscription{
+	background-color: var(--white);
+	color: var(--logop-blue);
+	outline: 3px solid var(--logop-blue);
+	outline-offset: -3px;
+	transition: background-color 0.3s ease-out, color 0.3s ease-out;
+
+}
+
+.connexion{
+	background-color: var(--logop-blue);
+	color: var(--white);
+	transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+.button{
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 10px;
+}
+
+.connexion:hover{
+	background-color: var(--white);
+	color: var(--logop-blue);
+	outline: 3px solid var(--logop-blue);
+	outline-offset: -3px;
+	cursor: pointer;
+}
+
+.inscription:hover{
+	background-color: var(--logop-blue);
+	color: var(--white);
+	cursor: pointer;
+}
+
+.menu-opt{
+	padding: 0 10px;
+	font-family: "Inter";
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.opt-container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	transition: all 0.3 ease-out;
+}
+
+.opt-container:hover{
+	border-bottom: var(--logop-blue) 5px solid;
+	color: var(--logop-blue);
+	cursor: pointer;
+}
+
+.main-part{
+	min-height: 90vh;
+	width: 100vw;
+}
+
+footer{
+	height: 15vh;
+	max-width: 100vw;
+	background-color: var(--white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: drop-shadow(0 10px 10px black);
+}

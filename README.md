@@ -40,3 +40,7 @@
 ### v0.3.4 :
 
 - css updated ;
+
+### v0.3.5 : 
+
+- cards color changed ;

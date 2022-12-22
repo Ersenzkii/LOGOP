@@ -23,7 +23,7 @@
 
 ### v0.3.1 :
 
-- review on home page ;
+- (home) reviews added ;
 - minor bugs fixed ;
 
 ### v0.3.2 :

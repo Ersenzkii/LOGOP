@@ -1,0 +1,79 @@
+/*formules.css*/
+
+:root{
+	--debug-color: #673AB7;
+
+	--white: #FFF;
+	--logop-blue: #1a6eb5;
+	--light-blue: #0077B5;
+	--green: #00E676;
+
+	--red: #C62828;
+	--yellow: #FF8F00;
+	--blue: #1565C0;
+}
+
+.formules{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+.card{
+	margin: 0 20px;
+	height: 60vh;
+	width: 20vw;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card ul {
+	margin: 0;
+	font-family: "Inter";
+	font-weight: 800;
+}
+
+.card li{
+	margin: 10px 0;
+}
+
+.red{
+	background-color: var(--red);
+	color: var(--white);
+}
+
+.yellow{
+	background-color: var(--yellow);
+	color: var(--white);
+}
+
+.blue{
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+.prix{
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 20%;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+
+.card-price{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-basis: 20%;
+}
+
+.card-title{
+	flex-basis: 20%;
+}
+
+.card-list{
+	flex-basis: 60%;
+}

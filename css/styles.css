@@ -13,6 +13,7 @@
 	--white: #FFF;
 	--logop-blue: #1a6eb5;
 	--light-blue: #0077B5;
+	--green: #00E676;
 }
 
 body{
@@ -146,7 +147,7 @@ footer:hover{
 }
 
 .mod{
-	min-height: 70vh;
+	min-height: 90vh;
 	width: 100vw;
 	background-color: var(--white);
 	display: flex;
@@ -200,4 +201,64 @@ footer:hover{
 	background-color: var(--logop-blue);
 	color: var(--white);
 	border-radius: 0 10px 10px 0;
+}
+
+.first-avis{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.avis{
+	width: 25vw;
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--white);
+	border-radius: 10px;
+	outline: var(--logop-blue) 2px solid;
+	outline-offset: -2px;
+}
+
+.firstline{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.secondline{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 15px;
+}
+
+.profilepic{
+	width: 3vw;
+	margin: 10px;
+	height: 3vw;
+	border-radius: 30px;
+	background-color: var(--light-blue);
+}
+
+.note{
+	width: 2vw;
+	margin-right: 10px;
+	height: 2vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.good{
+	background-color: var(--green);
+	color: var(--white);
+}
+
+.username{
+	font-family: "Inter";
+	font-weight: 800;
 }

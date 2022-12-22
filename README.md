@@ -34,3 +34,9 @@
 ### v0.3.3 :
 
 - formules updated ;
+
+## December 22, 2022
+
+### v0.3.4 :
+
+- css updated ;

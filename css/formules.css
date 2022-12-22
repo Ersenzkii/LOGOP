@@ -30,6 +30,10 @@
 	align-items: center;
 }
 
+.foru{
+	min-height: 105vh;
+}
+
 .card ul {
 	margin: 0;
 	font-family: "Inter";

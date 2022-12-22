@@ -2,7 +2,7 @@
 
 # LOGOP Website Logs
 
-project started : December 20, 2022
+## December 20, 2022
 
 ## v0.1 :
 
@@ -14,7 +14,7 @@ project started : December 20, 2022
 - first module added ;
 - entreprise input added ;
 
-December 21, 2022
+## December 21, 2022
 
 ## v0.3.0 :
 

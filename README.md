@@ -23,3 +23,8 @@ project started : December 20, 2022
 
 - review on home page ;
 - minor bugs fixed ;
+
+## v0.3.2 :
+
+- formules added & updated ;
+- minor bugs fixed ;

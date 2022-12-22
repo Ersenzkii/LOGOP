@@ -30,3 +30,7 @@
 
 - formules added & updated ;
 - minor bugs fixed ;
+
+### v0.3.3 :
+
+- formules updated ;

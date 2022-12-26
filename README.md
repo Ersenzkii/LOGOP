@@ -44,3 +44,7 @@
 ### v0.3.5 : 
 
 - cards color changed ;
+
+### v0.3.6 : 
+
+- avis updated ;

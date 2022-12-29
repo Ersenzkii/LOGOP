@@ -50,3 +50,9 @@
 ### v0.3.6 : 
 
 - avis updated ;
+
+## December 29, 2022
+
+### v0.3.7 :
+
+- avis updated ;

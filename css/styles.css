@@ -14,6 +14,8 @@
 	--logop-blue: #1a6eb5;
 	--light-blue: #0077B5;
 	--green: #00E676;
+	--orange: #F57F17;
+	--rouge: #B71C1C;
 }
 
 body{
@@ -234,6 +236,7 @@ footer:hover{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: space-evenly;
 	padding: 0 15px;
 }
 
@@ -260,7 +263,27 @@ footer:hover{
 	color: var(--white);
 }
 
+.medium{
+	background-color: var(--orange);
+	color: var(--white);
+}
+
+.bad{
+	background-color: var(--rouge);
+	color: var(--white);
+}
+
+.debug{
+	background-color: var(--debug-color);
+	color: var(--white);
+}
+
 .username{
 	font-family: "Inter";
 	font-weight: 800;
+}
+
+.avis_wrttn{
+	font-family: "Inter";
+	font-weight: 800;	
 }

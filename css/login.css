@@ -1,0 +1,56 @@
+/*login.css*/
+
+:root{
+	--debug-color: #673AB7;
+
+	--white: #FFF;
+	--logop-blue: #1a6eb5;
+	--light-blue: #0077B5;
+	--green: #00E676;
+	--orange: #F57F17;
+	--rouge: #B71C1C;
+}
+
+.formulaire{
+	height: 45vh;
+    width: 30vw;
+    background-color: var(--logop-blue);
+    margin-top: 40px;
+    border-radius: 10px;
+    outline: var(--logop-blue) 5px solid;
+    outline-offset: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logInput{
+	margin: 20px 40px;
+	padding: 15px;
+	font-size: 1.2em;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	color: var(--logop-blue);
+	font-family: "Unbounded";
+}
+
+.logSub{
+	background-color: var(--logop-blue);
+	outline: var(--white) 2px solid;
+	color: var(--white);
+	margin: 20px 40px ;
+	padding: 15px;
+	font-size: 1.2em;
+	border-radius: 10px;
+	border: none;
+	font-family: "Unbounded";
+	transition: all 0.2s ease-out;
+}
+
+.logSub:hover{
+	background-color: var(--white);
+	color: var(--logop-blue);
+	cursor: pointer;
+}

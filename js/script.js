@@ -34,3 +34,10 @@ export const goToAvis = () => {
 		window.location.href = "/avis.html";
 	});
 }
+
+export const goToLogIn = () => {
+	let loginButton = document.getElementById("connexion");
+	loginButton.addEventListener("click", function() {
+		window.location.href = "/connexion.html";
+	})
+}

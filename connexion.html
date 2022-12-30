@@ -1,12 +1,13 @@
-<!--logo.html-->
+<!--connexion.html-->
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>LOGOP | Logos</title>
+	<title>LOGOP | Connexion</title>
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="/css/login.css">
 	<link rel="icon" href="/img/logo.png">
 </head>
 <body>
@@ -31,12 +32,19 @@
 		</div>
 		<div class="right-part">
 			<div id="connexion" class="connexion button">Connexion</div>
-			<div id="namebut" class="not-visible namey button"></div>
 			<div id="inscription" class="inscription button">Inscription</div>
 		</div>
 	</header>
 	<div class="main-part">
-		
+		<div class="mod">
+			<h1 style="margin-bottom: 0;" class="mod-title">Se connecter</h1>
+			<h2 class="mod-sub">Veuillez vous connecter pour avoir accès à l'entièreté du site.</h2>
+			<div class="formulaire">
+				<input class="logInput" id="name" autocomplete="off" placeholder="Nom d'utilisateur" type="text" name="email"/>
+				<input class="logInput" id="pass" autocomplete="off" placeholder="Mot de passe" type="password" name="password"/>
+				<input class="logSub" type="submit" id="subbut" name="submit" value="Se connecter" />
+			</div>
+		</div>
 	</div>
 	<footer>
 		<img class="logo" src="/img/logo.png">
@@ -44,13 +52,14 @@
 	</footer>
 	<script type="module">
 		import { backToMenu, goToLogo, goToFormules, goToAbout, goToAvis, goToLogIn} from "/js/script.js"
-		import { onLoadCookies, signOut } from "/js/log.js"
+		import { cookier, onLoadCookies, signOut } from "/js/log.js"
 		backToMenu()
 		goToLogo()
 		goToFormules()
 		goToAbout()
 		goToAvis()
 		goToLogIn()
+		cookier()
 		onLoadCookies()
 		signOut()
 	</script>

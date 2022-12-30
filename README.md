@@ -56,3 +56,13 @@
 ### v0.3.7 :
 
 - avis updated ;
+
+## December 30, 2022
+
+### v0.3.8 :
+
+- cookie created ;
+- login system updated ;
+- login page created ;
+- log.js added
+- login.css added 

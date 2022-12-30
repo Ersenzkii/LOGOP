@@ -31,6 +31,7 @@
 		</div>
 		<div class="right-part">
 			<div id="connexion" class="connexion button">Connexion</div>
+			<div id="namebut" class="not-visible namey button"></div>
 			<div id="inscription" class="inscription button">Inscription</div>
 		</div>
 	</header>
@@ -95,7 +96,7 @@
 				<div class="avis">
 					<div class="firstline">
 						<div class="profilepic"></div>
-						<p class="username">Phil</p>
+						<p class="username">Philou</p>
 					</div>
 					<div class="secondline">
 						<div class="note good">5</div>
@@ -106,7 +107,7 @@
 				<div class="avis">
 					<div class="firstline">
 						<div class="profilepic"></div>
-						<p class="username">Thibault</p>
+						<p class="username">lybowski</p>
 					</div>
 					<div class="secondline">
 						<div class="note good">4</div>
@@ -121,12 +122,16 @@
 		<h1 class="logo-title">Logop</h1>
 	</footer>
 	<script type="module">
-		import { backToMenu, goToLogo, goToFormules, goToAbout, goToAvis } from "/js/script.js"
+		import { backToMenu, goToLogo, goToFormules, goToAbout, goToAvis, goToLogIn} from "/js/script.js"
+		import { onLoadCookies, signOut } from "/js/log.js"
 		backToMenu()
 		goToLogo()
 		goToFormules()
 		goToAbout()
 		goToAvis()
+		goToLogIn()
+		onLoadCookies()
+		signOut()
 	</script>
 </body>
 </html>

@@ -89,6 +89,15 @@ header{
 	transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
+.namey{
+	background-color: var(--logop-blue);
+	color: var(--white);
+}
+
+.namey:hover {
+	cursor: pointer;
+}
+
 .button{
 	padding: 10px 20px;
 	margin: 0 10px;
@@ -286,4 +295,8 @@ footer:hover{
 .avis_wrttn{
 	font-family: "Inter";
 	font-weight: 800;	
+}
+
+.not-visible{
+	display: none;
 }

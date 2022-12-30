@@ -66,3 +66,13 @@
 - login page created ;
 - log.js added
 - login.css added 
+
+# ROADMAP_
+
+## IMPORTANT_
+
+- signup page
+- logo page
+- about page
+- add the real logo
+- create a node server 

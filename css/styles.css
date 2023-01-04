@@ -267,17 +267,17 @@ footer:hover{
 	align-items: center;
 }
 
-.good{
+.green{
 	background-color: var(--green);
 	color: var(--white);
 }
 
-.medium{
+.orange{
 	background-color: var(--orange);
 	color: var(--white);
 }
 
-.bad{
+.red{
 	background-color: var(--rouge);
 	color: var(--white);
 }

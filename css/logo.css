@@ -1,0 +1,32 @@
+/*logo.css*/
+
+:root{
+	--debug-color: #673AB7;
+
+	--white: #FFF;
+	--logop-blue: #1a6eb5;
+	--light-blue: #0077B5;
+	--green: #00E676;
+	--orange: #F57F17;
+	--rouge: #B71C1C;
+}
+
+.logos{
+	height: 30vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square-box{
+	height: 25vh;
+	margin: 0 20px;
+	width: 25vh;
+	transition: all 0.3s ease-out;
+}
+
+.square-box:hover{
+	cursor: pointer;
+	filter: saturate(150%);
+}

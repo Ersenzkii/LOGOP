@@ -67,6 +67,12 @@
 - log.js added
 - login.css added 
 
+## January 4, 2022
+
+### v.0.4 :
+
+- logo updated ;
+
 # ROADMAP_
 
 ## IMPORTANT_

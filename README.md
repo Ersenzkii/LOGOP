@@ -77,6 +77,11 @@
 
 - about aborted ;
 
+### v0.5 :
+
+- creation pages added ;
+- bugs reported ;
+
 # ROADMAP_
 
 ## IMPORTANT_

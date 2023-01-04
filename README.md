@@ -2,7 +2,7 @@
 
 # LOGOP_WLogs_
 
-## December 20, 2022
+## December 20, 2022_
 
 ### v0.1 :
 
@@ -14,7 +14,7 @@
 - first module added ;
 - entreprise input added ;
 
-## December 21, 2022
+## December 21, 2022_
 
 ### v0.3.0 :
 
@@ -35,7 +35,7 @@
 
 - formules updated ;
 
-## December 22, 2022
+## December 22, 2022_
 
 ### v0.3.4 :
 
@@ -45,19 +45,19 @@
 
 - cards color changed ;
 
-## December 26, 2022
+## December 26, 2022_
 
 ### v0.3.6 : 
 
 - avis updated ;
 
-## December 29, 2022
+## December 29, 2022_
 
 ### v0.3.7 :
 
 - avis updated ;
 
-## December 30, 2022
+## December 30, 2022_
 
 ### v0.3.8 :
 
@@ -67,7 +67,7 @@
 - log.js added
 - login.css added 
 
-## January 4, 2022
+## January 4, 2022_
 
 ### v.0.4 :
 

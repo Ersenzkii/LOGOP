@@ -21,13 +21,6 @@ export const goToFormules = () => {
 	});
 }
 
-export const goToAbout = () => {
-	let homeButton = document.getElementById("about");
-	homeButton.addEventListener("click", function()  {
-		window.location.href = "/about.html";
-	});
-}
-
 export const goToAvis = () => {
 	let homeButton = document.getElementById("avis");
 	homeButton.addEventListener("click", function()  {

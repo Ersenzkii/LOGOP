@@ -69,9 +69,13 @@
 
 ## January 4, 2022_
 
-### v.0.4 :
+### v0.4 :
 
 - logo updated ;
+
+### v0.4.1 :
+
+- about aborted ;
 
 # ROADMAP_
 

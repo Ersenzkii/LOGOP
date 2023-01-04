@@ -215,6 +215,10 @@ footer:hover{
 	border-radius: 0 10px 10px 0;
 }
 
+.continue-part:hover{
+	cursor: pointer;
+}
+
 .first-avis{
 	padding-top: 50px;
 	display: flex;
@@ -285,6 +289,10 @@ footer:hover{
 .debug{
 	background-color: var(--debug-color);
 	color: var(--white);
+}
+
+.blue{
+	background-color: var(--logop-blue);
 }
 
 .username{

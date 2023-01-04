@@ -1,12 +1,14 @@
-<!--index.html-->
+<!--second-step.html-->
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>LOGOP</title>
+	<title>LOGOP | Sélection de la couleur</title>
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="/css/generator.css">
+	<link rel="stylesheet" type="text/css" href="/css/logo.css">
 	<link rel="icon" href="/img/logo.png">
 </head>
 <body>
@@ -34,37 +36,16 @@
 	</header>
 	<div class="main-part">
 		<div class="mod">
-			<div class="elements">
-				<h1 class="mod-title">Créez votre logo en quelques minutes!</h1>
-				<h2 class="mod-sub">Commencez dès à présent!</h2>
-				<h1>↓</h1>
-				<div class="input-container">
-					<input type="text" id="entreprise" class="mod-input" name="entreprise-name" placeholder="Entrez le nom de votre entreprise">
-					<div id="arrow-case" class="continue-part"><h1>→</h1></div>
-				</div>
-			</div>
-			<div class="first-avis">
-				<div class="avis">
-					<div class="firstline">
-						<div class="profilepic"></div>
-						<p class="username">DUVI</p>
-					</div>
-					<div class="secondline">
-						<div class="note green">5</div>
-						<p class="username">Service simple d'utilisation et rapide!</p>
-					</div>
-				</div>
-				<div class="avis">
-					<div class="firstline">
-						<div class="profilepic"></div>
-						<p class="username">Paul</p>
-					</div>
-					<div class="secondline">
-						<div class="note green">4</div>
-						<p class="username">Je recommande!</p>
-					</div>
-				</div>
-			</div>
+			<h1 class="mod-title">Création du Logo</h1>
+			<h2 id="name" class="mod-sub"></h2>
+			<h2 id="test">&nbsp;</h2>
+			<div class="logos">
+				<div id="blue" class="square-box blue"></div>
+				<div id="green" class="square-box green"></div>
+				<div id="orange" class="square-box orange"></div>
+				<div id="red" class="square-box red"><div class="hexagonemain"></div></div>
+			</div><br>
+			<div id="toThird" class="valid button">Valider</div>
 		</div>
 	</div>
 	<footer>
@@ -72,17 +53,20 @@
 		<h1 class="logo-title">Logop</h1>
 	</footer>
 	<script type="module">
-		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn} from "/js/script.js"
+		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, goToThird} from "/js/script.js"
 		import { onLoadCookies, signOut } from "/js/log.js"
-		import { goToCreator } from "/js/logo-generator.js"
+		import { colorNamePutter } from "/js/name-putter.js"
+		import { colorCook } from "/js/logocookier.js"
 		backToMenu()
 		goToLogo()
 		goToFormules()
 		goToAvis()
 		goToLogIn()
+		goToThird()
 		onLoadCookies()
 		signOut()
-		goToCreator()
+		colorNamePutter()
+		colorCook()
 	</script>
 </body>
 </html>

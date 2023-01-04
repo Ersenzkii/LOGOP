@@ -7,6 +7,7 @@ export const cookier = () => {
     let passwordVal = document.getElementById("pass");
     button.addEventListener("click", function() {
         document.cookie = 'user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+        document.cookie = 'entrepriseName=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC';
         let username = nameInput.value
         let pass = passwordVal.value
         if (username.length < 1 || pass.length < 1) {
@@ -24,7 +25,6 @@ export const cookier = () => {
 export const onLoadCookies = () => {
 	window.addEventListener("load", function() {
 		let userCookie = getCookie("user")
-		console.log(userCookie)
 		let loginButton = document.getElementById("connexion");
 		let signupButton = document.getElementById("inscription");
 		let name = document.getElementById("namebut");
@@ -51,6 +51,7 @@ export const signOut = () => {
 	let name = document.getElementById("namebut");
 	name.addEventListener("click", function() {
 		document.cookie = 'user=;'
+		document.cookie = 'entrepriseName=;';
 		window.location.href = "/index.html";
 	})
 }

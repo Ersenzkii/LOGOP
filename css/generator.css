@@ -1,0 +1,83 @@
+/*generator.css*/
+
+.circle{
+	border-radius: 100px;
+}
+
+.triangle{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 87px solid transparent;
+ border-bottom : 25vh solid var(--logop-blue);
+ border-left : 87px solid transparent;
+ margin: 0 20px;
+}
+
+.triangle:hover{
+	cursor: pointer;
+	filter: saturate(150%);
+}
+
+.hexagone {
+  position: relative;
+  width: 24vh;
+  visibility: hidden;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.hexagone:hover {
+	cursor: pointer;
+	filter: saturate(150%);
+}
+
+.hexagone:after {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  content: "";
+  display: block;
+  margin-top: 28.86751%;
+  padding-bottom: 86.602%;
+}
+.hexagone .hexagonemain{
+  display: block;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 115.47005%;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+  -ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+  transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+  z-index: 1;
+}
+.hexagone .hexagonemain:before{
+  content: "";
+  display: block;
+  position: absolute;
+  visibility: visible;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #175ed1;
+  -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+  -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+  transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+}
+
+.valid{
+	background-color: var(--logop-blue);
+	color: var(--white);
+	transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+.valid:hover{
+	background-color: var(--white);
+	color: var(--logop-blue);
+	outline: 3px solid var(--logop-blue);
+	outline-offset: -3px;
+	cursor: pointer;
+}

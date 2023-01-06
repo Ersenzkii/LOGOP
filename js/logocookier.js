@@ -13,21 +13,25 @@ export const shapeCook = () => {
 
 	square.addEventListener("click", function() {
 		document.cookie = "shape=Carré;"
+		console.log(document.cookie)
 		test.textContent = getCookie("shape")
 	})
 
 	circle.addEventListener("click", function() {
 		document.cookie = "shape=Cercle;"
+		console.log(document.cookie)
 		test.textContent = getCookie("shape")
 	})
 
 	triangle.addEventListener("click", function() {
 		document.cookie = "shape=Triangle;"
+		console.log(document.cookie)
 		test.textContent = getCookie("shape")
 	})
 
 	hexagone.addEventListener("click", function() {
 		document.cookie = "shape=Hexagone;"
+		console.log(document.cookie)
 		test.textContent = getCookie("shape")
 	})
 }
@@ -44,21 +48,25 @@ export const colorCook = () => {
 
 	blue.addEventListener("click", function() {
 		document.cookie = "color=Bleu;"
+		console.log(document.cookie)
 		test.textContent = getCookie("color")
 	})
 
 	green.addEventListener("click", function() {
 		document.cookie = "color=Vert;"
+		console.log(document.cookie)
 		test.textContent = getCookie("color")
 	})
 
 	orange.addEventListener("click", function() {
 		document.cookie = "color=Orange;"
+		console.log(document.cookie)
 		test.textContent = getCookie("color")
 	})
 
 	red.addEventListener("click", function() {
-		document.cookie = "color=Red;"
+		document.cookie = "color=Rouge;"
+		console.log(document.cookie)
 		test.textContent = getCookie("color")
 	})
 }

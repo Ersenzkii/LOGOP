@@ -82,6 +82,12 @@
 - creation pages added ;
 - bugs reported ;
 
+## January 6th, 2023_
+
+### v0.5.1 :
+
+- colors changed ;
+
 # ROADMAP_
 
 ## IMPORTANT_

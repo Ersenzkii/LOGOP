@@ -3,9 +3,11 @@
 :root{
 	--debug-color: #673AB7;
 
-	--white: #FFF;
-	--logop-blue: #1a6eb5;
-	--light-blue: #0077B5;
+	--white: #f7f7f7;
+	--black: #2d2727;
+	--real-black: #1E1E1E;
+	--logop-blue: #92c1aa;
+	--light-blue: #93c2ab;
 	--green: #00E676;
 	--orange: #F57F17;
 	--rouge: #B71C1C;

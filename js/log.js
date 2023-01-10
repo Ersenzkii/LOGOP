@@ -19,6 +19,21 @@ export const cookier = () => {
         }
 
     })
+    document.addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+      document.cookie = 'user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+      document.cookie = 'entrepriseName=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+      let username = nameInput.value
+      let pass = passwordVal.value
+      if (username.length < 1 || pass.length < 1) {
+          alert("Veuillez remplir tous les champs!")
+      } else {
+          document.cookie = 'user=' + username
+          console.log(document.cookie)
+          window.location.href = "/index.html"
+      }
+    }
+  })
 
 }
 
@@ -55,3 +70,4 @@ export const signOut = () => {
 		window.location.href = "/index.html";
 	})
 }
+

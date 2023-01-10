@@ -71,6 +71,47 @@ export const colorCook = () => {
 	})
 }
 
+export const otherCook = () => {
+	window.addEventListener("load", function() {
+		document.cookie = "other=;"
+	})
+	let TA = document.getElementById("final")
+
+	TA.addEventListener("click", function() {
+		let input = document.getElementById("theTA").value
+		document.cookie = "other=" + input
+		console.log(document.cookie)
+	})
+}
+
+export const formulaCook = () => {
+	window.addEventListener("load", function() {
+		document.cookie = "formula=;"
+	})
+	let New = document.getElementById("new")
+	let premium = document.getElementById("premium")
+	let gold = document.getElementById("gold")
+	let test = document.getElementById("test")
+
+	New.addEventListener("click", function() {
+		document.cookie = "formula=Débutant;"
+		console.log(document.cookie)
+		test.textContent = getCookie("formula")
+	})
+
+	premium.addEventListener("click", function() {
+		document.cookie = "formula=Premium;"
+		console.log(document.cookie)
+		test.textContent = getCookie("formula")
+	})
+
+	gold.addEventListener("click", function() {
+		document.cookie = "formula=Expert Gold;"
+		console.log(document.cookie)
+		test.textContent = getCookie("formula")
+	})
+}
+
 function getCookie(cookieName) {
     let cookie = {};
     document.cookie.split(';').forEach(function(el) {

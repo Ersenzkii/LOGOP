@@ -12,11 +12,13 @@
  border-bottom : 25vh solid var(--logop-blue);
  border-left : 87px solid transparent;
  margin: 0 20px;
+ transition: 0.3s ease-out all;
 }
 
 .triangle:hover{
 	cursor: pointer;
 	filter: saturate(150%);
+  transform: scale(1.05);
 }
 
 .hexagone {
@@ -25,11 +27,13 @@
   visibility: hidden;
   overflow: hidden;
   margin: 0 20px;
+  transition: all 0.3s ease-out;
 }
 
 .hexagone:hover {
 	cursor: pointer;
 	filter: saturate(150%);
+  transform: scale(1.05);
 }
 
 .hexagone:after {
@@ -80,4 +84,18 @@
 	outline: 3px solid var(--logop-blue);
 	outline-offset: -3px;
 	cursor: pointer;
+}
+
+.theTA{
+  height: 25vh;
+  width: 75vh;
+  margin: 20px 0;
+  border-radius: 20px;
+  border: none;
+  outline: 5px var(--logop-blue) solid;
+  outline-offset: 5px;
+  color: var(--logop-blue);
+  font-family: "Unbounded";
+  padding: 20px;
+  font-size: 1em;
 }

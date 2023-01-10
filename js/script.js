@@ -7,6 +7,13 @@ export const backToMenu = () => {
     });
 }
 
+export const backToMenuDEUX = () => {
+    let homeButton = document.getElementById("DEUXhome");
+    homeButton.addEventListener("click", function() {
+        window.location.href = "/index.html";
+    });
+}
+
 export const goToLogo = () => {
     let homeButton = document.getElementById("logo");
     homeButton.addEventListener("click", function() {
@@ -37,35 +44,37 @@ export const goToLogIn = () => {
 
 export const goToSecond = () => {
     let button = document.getElementById("toSecond");
-    const cookie = getCookie("shape").length
     button.addEventListener("click", function() {
-        if (cookie > 1) {
-            window.location.href = "/second-step.html"
-        } else {
-        	document.getElementById("test").textContent = cookie
-        }
+        window.location.href = "/second-step.html"
     })
 }
 
 export const goToThird = () => {
     let button = document.getElementById("toThird");
-    const cookies = getCookie("color").length
-    console.log(cookies)
     button.addEventListener("click", function() {
-        if (cookies > 1) {
-            window.location.href = "/third-step.html"
-        } else {
-        	console.log(document.cookie)
-        	document.getElementById("test").textContent = cookies
-        }
+        window.location.href = "/third-step.html"
+    })
+}
+
+export const toFinal = () => {
+    let button = document.getElementById("final");
+    button.addEventListener("click", function() {
+        window.location.href = "/final.html"
+    })
+}
+
+export const toFourth = () => {
+    let button = document.getElementById("toFourth");
+    button.addEventListener("click", function() {
+        window.location.href = "/fourth-step.html"
     })
 }
 
 function getCookie(cookieName) {
-  let cookie = {};
-  document.cookie.split(';').forEach(function(el) {
-    let [key,value] = el.split('=');
-    cookie[key.trim()] = value;
-  })
-  return cookie[cookieName];
+    let cookie = {};
+    document.cookie.split(';').forEach(function(el) {
+        let [key, value] = el.split('=');
+        cookie[key.trim()] = value;
+    })
+    return cookie[cookieName];
 }

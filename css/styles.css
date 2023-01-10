@@ -11,10 +11,11 @@
 	--debug-color: #673AB7;
 
 	--white: #f7f7f7;
-	--black: #2d2727;
-	--real-black: #1E1E1E;
+	--black: #404040;
+	--sec-black: #262626;
+	--real-black: #171717;
 	--logop-blue: #92c1aa;
-	--light-blue: #93c2ab;
+	--light-blue: #0277BD;
 	--green: #00E676;
 	--orange: #F57F17;
 	--rouge: #B71C1C;
@@ -147,10 +148,11 @@ header{
 }
 
 footer{
-	height: 15vh;
+	min-height: 15vh;
 	max-width: 100vw;
 	background-color: var(--real-black);
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	filter: drop-shadow(0 10px 10px black);
@@ -196,7 +198,7 @@ footer:hover{
 }
 
 .mod-input::placeholder{
-	color: var(--light-blue);
+	color: var(--logop-blue);
 }
 
 .input-container{
@@ -295,7 +297,7 @@ footer:hover{
 }
 
 .blue{
-	background-color: var(--logop-blue);
+	background-color: var(--light-blue);
 }
 
 .username{
@@ -310,4 +312,21 @@ footer:hover{
 
 .not-visible{
 	display: none;
+}
+
+.checkboxes{
+	margin: 40px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.thing{
+	margin: 10px 0;
+}
+
+.links{
+	margin-bottom: 20px;
+	text-align: center;
 }

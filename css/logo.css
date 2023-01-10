@@ -7,7 +7,7 @@
 	--black: #2d2727;
 	--real-black: #1E1E1E;
 	--logop-blue: #92c1aa;
-	--light-blue: #93c2ab;
+	--light-blue: #0277BD;
 	--green: #00E676;
 	--orange: #F57F17;
 	--rouge: #B71C1C;
@@ -31,4 +31,9 @@
 .square-box:hover{
 	cursor: pointer;
 	filter: saturate(150%);
+	transform: scale(1.05);
+}
+
+.sec-blue{
+	background-color: var(--logop-blue);
 }

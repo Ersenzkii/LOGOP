@@ -88,11 +88,18 @@
 
 - colors changed ;
 
+## January 9th, 2023_
+
+### v0.9 :
+
+- js updated ;
+- generator finished ;
+- footer updated ;
+- legal mentions added ;
+- css updated ;
+
 # ROADMAP_
 
 ## IMPORTANT_
 
-- signup page
-- about page
-- add the real logo
 - create a node server 

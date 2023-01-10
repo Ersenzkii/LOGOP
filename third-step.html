@@ -37,14 +37,8 @@
 		<div class="mod">
 			<h1 class="mod-title">Création du Logo</h1>
 			<h2 id="name" class="mod-sub"></h2>
-			<h2 id="test">&nbsp;</h2>
-			<div class="logos">
-				<div id="blue" class="square-box blue"></div>
-				<div id="green" class="square-box green"></div>
-				<div id="orange" class="square-box orange"></div>
-				<div id="red" class="square-box red"><div class="hexagonemain"></div></div>
-			</div><br>
-			<div id="toThird" class="valid button">Valider</div>
+			<textarea id="theTA" class="theTA"></textarea>
+			<div id="final" class="valid button">Valider</div>
 		</div>
 	</div>
 	<footer>
@@ -52,20 +46,20 @@
 		
 	</footer>
 	<script type="module">
-		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, goToThird} from "/js/script.js"
+		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, toFinal} from "/js/script.js"
 		import { onLoadCookies, signOut } from "/js/log.js"
 		import { otherNamePutter } from "/js/name-putter.js"
-		import { colorCook } from "/js/logocookier.js"
+		import { otherCook } from "/js/logocookier.js"
 		backToMenu()
 		goToLogo()
 		goToFormules()
 		goToAvis()
 		goToLogIn()
-		goToThird()
+		toFinal()
 		onLoadCookies()
 		signOut()
 		otherNamePutter()
-		colorCook()
+		otherCook()
 	</script>
 </body>
 </html>

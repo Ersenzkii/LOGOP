@@ -1,11 +1,11 @@
-<!--second-step.html-->
+<!--third-step.html-->
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>LOGOP | Sélection de la couleur</title>
+	<title>LOGOP | Formules</title>
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="/css/generator.css">
 	<link rel="stylesheet" type="text/css" href="/css/logo.css">
@@ -39,33 +39,36 @@
 			<h2 id="name" class="mod-sub"></h2>
 			<h2 id="test">&nbsp;</h2>
 			<div class="logos">
-				<div id="blue" class="square-box blue"></div>
-				<div id="green" class="square-box green"></div>
-				<div id="orange" class="square-box orange"></div>
-				<div id="red" class="square-box red"><div class="hexagonemain"></div></div>
-			</div><br>
-			<div id="toFourth" class="valid button">Valider</div>
+				<div id="new" style="color: var(--white); background-color: var(--black);display:flex; justify-content:center;align-items:center;" class="square-box"><p>Débutant<br>(100€)</p></div>
+				<div id="premium" style="display:flex; background-color: var(--sec-black);justify-content:center;align-items:center; color: var(--white) ;" class="square-box"><p>Premium<br>(150€)</p></div>
+				<div id="gold" style="color: var(--white);display:flex; justify-content:center; background-color: var(--real-black); align-items:center;" class="square-box"><p>Expert Gold<br>(300€)</p></div>
+			</div>
+			
+			<div id="toThird" class="valid button">Valider</div>
 		</div>
 	</div>
 	<footer>
 		<img class="logo" src="/img/logo.png">
-		
+		<div class="links">
+			<a href="/pdf/Mentions_Légales.pdf"><p style="font-size: 0.6em; color: var(--logop-blue); text-decoration: underline;">Mentions légales</p></a>
+			<a href="/pdf/Statuts3LLOGOSAS.pdf"><p style="font-size: 0.6em; color: var(--logop-blue); text-decoration: underline;">Statuts 3L LOGO SAS </p></a>
+		</div>
 	</footer>
 	<script type="module">
-		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, toFourth} from "/js/script.js"
+		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, goToThird} from "/js/script.js"
 		import { onLoadCookies, signOut } from "/js/log.js"
-		import { colorNamePutter } from "/js/name-putter.js"
-		import { colorCook } from "/js/logocookier.js"
+		import { formuNamePutter } from "/js/name-putter.js"
+		import { formulaCook } from "/js/logocookier.js"
 		backToMenu()
 		goToLogo()
 		goToFormules()
 		goToAvis()
 		goToLogIn()
-		toFourth()
+		goToThird()
 		onLoadCookies()
 		signOut()
-		colorNamePutter()
-		colorCook()
+		formuNamePutter()
+		formulaCook()
 	</script>
 </body>
 </html>

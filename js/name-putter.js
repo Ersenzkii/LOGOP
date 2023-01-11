@@ -45,6 +45,15 @@ export const formuNamePutter = () => {
     })
 }
 
+export const payNamePutter = () => {
+    window.addEventListener("load", function() {
+        console.log('c')
+        let second = document.getElementById("name");
+        let entreprise = getCookie("entrepriseName")
+        second.textContent = entreprise + " / Paiement (via PayPal)"
+    })
+}
+
 export const wow = () => {
     window.addEventListener("load", function() {
         let random = getRandomInt(154362, 304953)

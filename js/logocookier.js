@@ -75,7 +75,7 @@ export const otherCook = () => {
 	window.addEventListener("load", function() {
 		document.cookie = "other=;"
 	})
-	let TA = document.getElementById("final")
+	let TA = document.getElementById("toPayment")
 
 	TA.addEventListener("click", function() {
 		let input = document.getElementById("theTA").value

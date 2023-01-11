@@ -38,7 +38,7 @@
 			<h1 class="mod-title">Création du Logo</h1>
 			<h2 id="name" class="mod-sub"></h2>
 			<textarea id="theTA" class="theTA"></textarea>
-			<div id="final" class="valid button">Valider</div>
+			<div id="toPayment" class="valid button">Valider</div>
 		</div>
 	</div>
 	<footer>
@@ -46,10 +46,11 @@
 		<div class="links">
 			<a target="_blank" href="/pdf/Mentions_Légales.pdf"><p style="font-size: 0.6em; color: var(--logop-blue); text-decoration: underline;">Mentions légales</p></a>
 			<a target="_blank" href="/pdf/Statuts3LLOGOSAS.pdf"><p style="font-size: 0.6em; color: var(--logop-blue); text-decoration: underline;">Statuts 3L LOGO SAS </p></a>
+			<p style="font-size: 0.6em; color: var(--logop-blue);">©Evan "Ersenskii" Duvi</p>
 		</div>
 	</footer>
 	<script type="module">
-		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, toFinal} from "/js/script.js"
+		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, toPayment} from "/js/script.js"
 		import { onLoadCookies, signOut } from "/js/log.js"
 		import { otherNamePutter } from "/js/name-putter.js"
 		import { otherCook } from "/js/logocookier.js"
@@ -58,7 +59,7 @@
 		goToFormules()
 		goToAvis()
 		goToLogIn()
-		toFinal()
+		toPayment()
 		onLoadCookies()
 		signOut()
 		otherNamePutter()

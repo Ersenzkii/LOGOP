@@ -99,3 +99,17 @@
   padding: 20px;
   font-size: 1em;
 }
+
+.theIN{
+  height: 3vh;
+  width: 50vh;
+  margin: 10px 0 30px 0;
+  border-radius: 20px;
+  border: none;
+  outline: 5px var(--logop-blue) solid;
+  outline-offset: 5px;
+  color: var(--logop-blue);
+  font-family: "Unbounded";
+  padding: 10px;
+  font-size: 1em;
+}

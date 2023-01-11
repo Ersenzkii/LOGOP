@@ -69,6 +69,12 @@ export const toFourth = () => {
         window.location.href = "/fourth-step.html"
     })
 }
+export const toPayment = () => {
+    let button = document.getElementById("toPayment");
+    button.addEventListener("click", function() {
+        window.location.href = "/pay-step.html"
+    })
+}
 
 function getCookie(cookieName) {
     let cookie = {};

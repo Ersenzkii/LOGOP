@@ -1,11 +1,11 @@
-<!--first-step.html-->
+<!--pay-step.html-->
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>LOGOP | Sélection de la forme</title>
+	<title>LOGOP | Paiement</title>
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="/css/generator.css">
 	<link rel="stylesheet" type="text/css" href="/css/logo.css">
@@ -37,14 +37,9 @@
 		<div class="mod">
 			<h1 class="mod-title">Création du Logo</h1>
 			<h2 id="name" class="mod-sub"></h2>
-			<h2 id="test">&nbsp;</h2>
-			<div class="logos">
-				<div id="square" class="square-box sec-blue square"></div>
-				<div id="circle" class="square-box sec-blue circle"></div>
-				<div id="triangle" class="triangle"></div>
-				<div id="hexagone" class="hexagone"><div class="hexagonemain"></div></div>
-			</div><br>
-			<div id="toSecond" class="valid button">Valider</div>
+			<input type="text" id="theIN" class="theIN" value="paul.tocqu@gmail.com">
+			<input type="password" id="thePASS" class="theIN" value="c'estunbeauprojet">
+			<div id="final" class="valid button">Valider</div>
 		</div>
 	</div>
 	<footer>
@@ -56,20 +51,18 @@
 		</div>
 	</footer>
 	<script type="module">
-		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, goToSecond} from "/js/script.js"
+		import { backToMenu, goToLogo, goToFormules, goToAvis, goToLogIn, toFinal} from "/js/script.js"
 		import { onLoadCookies, signOut } from "/js/log.js"
-		import { shapeNamePutter } from "/js/name-putter.js"
-		import { shapeCook } from "/js/logocookier.js"
+		import { payNamePutter } from "/js/name-putter.js"
 		backToMenu()
 		goToLogo()
 		goToFormules()
 		goToAvis()
 		goToLogIn()
-		goToSecond()
+		toFinal()
 		onLoadCookies()
 		signOut()
-		shapeNamePutter()
-		shapeCook()
+		payNamePutter()
 	</script>
 </body>
 </html>

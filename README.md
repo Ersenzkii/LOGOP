@@ -98,6 +98,15 @@
 - legal mentions added ;
 - css updated ;
 
+## January 10th, 2023_
+
+### v1.0 :
+
+- pay page ;
+- js updated ;
+- new sub on final page ;
+- copyright ;
+
 # ROADMAP_
 
 ## IMPORTANT_
